@@ -1,0 +1,23 @@
+
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+#loading {
+  margin: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.card {
+  background-color: rgb(250, 250, 230);
+  transition: transform 0.2s; /* Efecto de transición */
+}
+
+
+.card:hover {
+  transform: scale(1.01); /* Escalar la tarjeta al pasar el mouse */
+}
